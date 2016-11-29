@@ -1,0 +1,43 @@
+.layout-2-50-50 .col-1, .layout-2-70-30 .col-1, .layout-2-30-70 .col-1, .layout-2-33-33-33 .col-1, .layout-2-33-33-33 .col-2{
+    padding-right: 1%;
+}
+.layout-2-50-50 .col-50-50 {
+    float: left;
+    width: 49%;
+}
+
+.layout-2-50-50 .col-2 {
+    padding-left: 1%;
+}
+
+.layout-2-66-33 .col-1 {
+	float: left;
+    width: calc(100% / 3 * 2 - 2%);
+}
+
+.layout-2-66-33 .col-2{
+	float: left;
+    width: calc(100% / 3 - 1%);
+}
+
+.layout-2-33-66 .col-2 {
+	float: left;
+    width: calc(100% / 3 * 2 - 1%);
+}
+
+.layout-2-33-66 .col-1{
+	float: left;
+    width: calc(100% / 3 - 1%);
+}
+
+.layout-2-33-33-33 .col-1,.layout-2-33-33-33 .col-2,.layout-2-33-33-33 .col-3{
+	float: left;
+    width: calc(100% / 3 - 1%);
+}
+
+.col-clear {
+    overflow: auto;
+}
+.layout-2-cols, .layout-3-cols {
+    width: 100%;
+}

@@ -1,0 +1,10 @@
+{
+    "name": "moodle-atto_columns-button",
+    "builds": {
+        "moodle-atto_columns-button": {
+            "jsfiles": [
+                "button.js"
+            ]
+        }
+    }
+}
